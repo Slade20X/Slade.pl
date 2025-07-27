@@ -547,9 +547,10 @@
 </audio>
 
 <script>
-  document.addEventListener("click", function() {
+  document.addEventListener("click", function () {
     const audio = document.getElementById("bg-music");
     audio.muted = false;
+    audio.volume = 0.3; // Głośność ustawiona na 50%
     audio.play();
   });
 </script>
